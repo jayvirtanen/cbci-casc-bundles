@@ -1,0 +1,4 @@
+jenkins:
+  remotingSecurity:
+    enabled: true
+  systemMessage: "Configured automatically by Configuration as Code for Controllers (2.263.2)\n\n"
