@@ -3,19 +3,18 @@ removeStrategy:
   rbac: 'SYNC'
 
 items:
-  - kind: freeStyle
-    name: freestyle-example
-    displayName: Freestyle Job example
-    label: agent
+  - kind: "freeStyle"
+    name: "freestyle-example"
+    displayName: "Freestyle Job example"
     builders:
       - shell:
           command: |-
             #!/usr/bin/env bash
             echo "Hello world"
 
-  - kind: pipeline
-    name: pipeline-example
-    displayName: Pipeline Job example
+  - kind: "pipeline"
+    name: "pipeline-example"
+    displayName: "Pipeline Job example"
     definition:
       cpsFlowDefinition:
         sandbox: true
