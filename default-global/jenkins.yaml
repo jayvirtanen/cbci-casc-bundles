@@ -1,33 +1,7 @@
 jenkins:
-  remotingSecurity:
-    enabled: true
-
-kube:
-  podTemplatesConfiguration:
-    templates:
-      - label: "agent"
+  systemMessage: "Configured automatically by Configuration as Code for Controllers"
 
 unclassified:
-  gitHubPluginConfig:
-    configs:
-      - credentialsId: "github-token"
-        name: "GitHub"
-    hookUrl: "$JENKINS_BASE_URL/github-webhook/"
-  globalLibraries:
-    libraries:
-      - allowVersionOverride: true
-        cachingConfiguration:
-          refreshTimeMinutes: 1440
-        defaultVersion: "main"
-        implicit: false
-        includeInChangesets: false
-        name: "pipeline-libraries"
-        retriever:
-          modernSCM:
-            scm:
-              git:
-                credentialsId: "github-key"
-                remote: "git@github.com:ryecarrigan/pipeline-libraries.git"
   hibernationConfiguration:
     enabled: false
     gracePeriod: 300
