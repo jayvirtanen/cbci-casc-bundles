@@ -13,34 +13,6 @@ items:
             #!/usr/bin/env bash
             echo "Hello world"
 
-  - kind: organizationFolder
-    name: github-example
-    displayName: GitHub Organization example
-    navigators:
-      - github:
-          repoOwner: rye-codes
-          traits:
-            - gitHubBranchDiscovery:
-                strategyId: 1
-    projectFactories:
-      - workflowMultiBranchProjectFactory:
-          scriptPath: Jenkinsfile
-
-  - kind: multibranch
-    name: multibranch-example
-    displayName: Multibranch Pipeline example
-    projectFactory:
-      workflowBranchProjectFactory:
-        scriptPath: Jenkinsfile
-    sourcesList:
-      - branchSource:
-          source:
-            git:
-              credentialsId: github-key
-              remote: git@github.com:ryecarrigan/simple-maven-project-with-tests.git
-              traits:
-                - gitBranchDiscovery: {}
-
   - kind: pipeline
     name: pipeline-example
     displayName: Pipeline Job example
