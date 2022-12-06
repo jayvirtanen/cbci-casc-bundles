@@ -32,3 +32,23 @@ items:
                   }
               }
           }
+  - kind: "pipeline"
+    name: "second-pipeline"
+    displayName: "Yet another Pipeline Job example"
+    definition:
+      cpsFlowDefinition:
+        sandbox: true
+        script: |
+          pipeline {
+              agent {
+                  kubernetes true
+              }
+
+              stages {
+                  stage('Hello') {
+                      steps {
+                          echo 'Hello World'
+                      }
+                  }
+              }
+          }
