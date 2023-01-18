@@ -7,7 +7,6 @@ unclassified:
   cloudbeesPrometheus:
     collectingMetricsPeriodInSeconds: 30
   operationsCenterRootAction:
-    connectionDetails: "----- BEGIN CONNECTION DETAILS -----\r\
-      \nH4sIAAAAAAAAAA3NSQ4CIRBA0bvU2mJoSqZreIKiATWSxiDGhfHusv15yf/CdfAxIUJOpJhqRl+N\r\
+    connectionDetails: "----- BEGIN CONNECTION DETAILS -----\nH4sIAAAAAAAAAA3NSQ4CIRBA0bvU2mJoSqZreIKiATWSxiDGhfHusv15yf/CdfAxIUJOpJhqRl+N\r\
       \nQ7LKIVsiNDaxSe7skwtwgnteVuPejzl6a2Xgtup7tJVvcz6jlIaEM0LrIDYK0Suv5CKfki59f5T1\r\
       \nqtxe5fcHpGODnHsAAAA=\r\n----- END CONNECTION DETAILS -----\n"
