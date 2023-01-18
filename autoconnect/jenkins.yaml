@@ -6,3 +6,8 @@ notificationConfiguration:
 unclassified:
   cloudbeesPrometheus:
     collectingMetricsPeriodInSeconds: 30
+  operationsCenterRootAction:
+    connectionDetails: "----- BEGIN CONNECTION DETAILS -----
+      \nH4sIAAAAAAAAAA3NQQ4CIQxA0buwtlCgCQPX8AQFOmokg0GMC+Pdh+3PS/5P3QYfUyXliDFUXwG9\r\
+      \nMFAVB5kLQQ425pgFHRd1UY+6rIXSjzl6azLArfoZbeX7nK9kjCcdvLY2akcxbbihWeQr+drLU9Zr\r\
+      \n5/aW/wmJyNFgewAAAA==\r\n----- END CONNECTION DETAILS -----\n"
