@@ -3,7 +3,7 @@ id: 'child-controller'
 description: 'Test of Bundle inheritance'
 availabilityPattern: '.*'
 version: '1'
-parent: 'default'
+parent: 'default-global'
 jcasc:
   - 'jenkins.yaml'
 plugins:
