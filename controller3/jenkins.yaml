@@ -1,18 +1,9 @@
 jenkins:
-  systemMessage: "Configured automatically by Configuration as Code for Controller 3\n\n"
-notificationConfiguration:
-  enabled: true
-  router: operationsCenter
-unclassified:
-  location:
-    adminAddress: "address not configured yet <nobody@nowhere>"
-    url: "http://34.139.77.23:8080/"
-  cloudbeesPrometheus:
-    collectingMetricsPeriodInSeconds: 30
-  operationsCenterRootAction:
-    connectionDetails: |-
-      ----- BEGIN CONNECTION DETAILS -----
-      H4sIAAAAAAAAABXNTQ7CIBBA4buwdoDyJ8M1PAHQGTWS1lCMC+Pdxe3Ll7yPuPa8DZFECMFaKgxo
-      NIHzNQN6rsCIbL1eORYrTuK+Tmug7tvoe2vU4V9fvc18G+OZlLJOnq1cFpTGYYo6ajXJm8plrw+a
-      L87toO8PZCX1wnsAAAA=
-      ----- END CONNECTION DETAILS -----
+  remotingSecurity:
+    enabled: true
+  systemMessage: "Controller configured using CloudBees CasC"
+  globalNodeProperties:
+    - envVars:
+        env:
+          - key: "Variable-C"
+            value: "CCCCC"
