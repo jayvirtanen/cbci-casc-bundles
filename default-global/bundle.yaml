@@ -3,6 +3,5 @@ id: 'default'
 description: 'Default CasC bundle'
 availabilityPattern: ''
 version: '1'
-jcascMergeStrategy: "override"
 jcasc:
   - 'jenkins.yaml'
