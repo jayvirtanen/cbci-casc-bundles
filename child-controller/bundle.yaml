@@ -4,6 +4,7 @@ description: 'Test of Bundle inheritance'
 availabilityPattern: '.*'
 version: '1'
 parent: 'default-global'
+jcascMergeStrategy: "override"
 jcasc:
   - 'jenkins.yaml'
 plugins:
