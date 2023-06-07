@@ -7,7 +7,7 @@ jcasc:
   - 'jenkins.yaml'
   - 'jenkins-child.yaml'
 plugins:
-  - 'plugins.yaml'
+  - 'plugins-child.yaml'
 catalog:
   - 'plugin-catalog.yaml'
 variables:
