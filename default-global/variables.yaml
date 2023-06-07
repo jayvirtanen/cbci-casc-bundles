@@ -1,4 +1,4 @@
 variables:
-  - parent_vars: |
+  - parent_vars: |-
         key: VARIABLE1
             value: foo
