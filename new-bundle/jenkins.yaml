@@ -1,0 +1,4 @@
+jenkins:
+  remotingSecurity:
+    enabled: true
+  systemMessage: "Controller configured using CloudBees CasC"

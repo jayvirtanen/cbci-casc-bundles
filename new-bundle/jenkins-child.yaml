@@ -1,0 +1,5 @@
+jenkins:
+  globalNodeProperties:
+    - envVars:
+        env:
+          - ${parent_vars}
