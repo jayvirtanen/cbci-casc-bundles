@@ -5,3 +5,5 @@ availabilityPattern: ''
 version: '1'
 jcasc:
   - 'jenkins.yaml'
+variables:
+  - 'variables.yaml'
