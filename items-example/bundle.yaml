@@ -3,7 +3,8 @@ id: 'examples'
 description: 'Items example'
 availabilityPattern: '.*'
 version: '1'
-
-parent: 'default-2.361.1.2'
+parent: 'default-global'
 items:
   - 'items.yaml'
+variables:
+  - 'variables.yaml'
