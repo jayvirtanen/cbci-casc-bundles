@@ -1,4 +1,0 @@
-variables:
-  - parent_vars: |-
-        key: foo
-        value: bar
