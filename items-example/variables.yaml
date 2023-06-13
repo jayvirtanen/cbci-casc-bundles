@@ -1,0 +1,2 @@
+variables:
+  - SYSTEM_MESSAGE: "Created using a CasC variable"
