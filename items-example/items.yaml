@@ -1,5 +1,5 @@
 removeStrategy:
-  items: NONE
+  items: SYNC
   rbac: SYNC
 items:
 - kind: pipeline
