@@ -4,4 +4,4 @@ jenkins:
   systemMessage: ${SYSTEM_MESSAGE}
 support:
   automatedBundleConfiguration:
-    period: ${SUPPORT_BUNDLE_PERIOD}
+    period: 48
