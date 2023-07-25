@@ -1,0 +1,7 @@
+jenkins:
+  remotingSecurity:
+    enabled: true
+  systemMessage: "plugins defined through Plugin Catalog"
+support:
+  automatedBundleConfiguration:
+    period: 24
