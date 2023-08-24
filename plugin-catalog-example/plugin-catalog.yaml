@@ -6,4 +6,4 @@ configurations:
   - description: "Custom Plugin LocationsP"
     includePlugins:
       beer:
-        url: http://10.142.0.18:8082/artifactory/generic-local/beer.hpi
+        url: https://updates.jenkins.io/download/plugins/beer/1.0/beer.hpi
