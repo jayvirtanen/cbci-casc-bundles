@@ -1,7 +1,7 @@
 jenkins:
   remotingSecurity:
     enabled: true
-  systemMessage: ${SYSTEM_MESSAGE}
+  systemMessage: ${HOSTNAME}
 support:
   automatedBundleConfiguration:
     period: 24
