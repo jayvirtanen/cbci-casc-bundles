@@ -1,7 +1,7 @@
 jenkins:
   remotingSecurity:
     enabled: true
-  systemMessage: ${aws.toolkit}
+  systemMessage: ${MASTER_ENDPOINT}
 support:
   automatedBundleConfiguration:
     period: 24
