@@ -5,3 +5,6 @@ jenkins:
 support:
   automatedBundleConfiguration:
     period: 24
+unclassified:
+  datadogGlobalConfiguration:
+    ciInstanceName: ${HOSTNAME}
