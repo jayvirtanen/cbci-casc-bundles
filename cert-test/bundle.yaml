@@ -1,5 +1,6 @@
 apiVersion: '1'
 id: 'cert-test'
+allowCapExceptions: true
 description: 'Bundle for testing catalog downloads'
 availabilityPattern: ''
 version: '1'
