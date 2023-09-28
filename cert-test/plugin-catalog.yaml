@@ -6,4 +6,4 @@ configurations:
   - description: "Performing URL overwrite for testing"
     includePlugins:
       junit:
-        url: https://jenkins-updates.cloudbees.com/download/plugins/junit/1.63/junit.hpi
+        url: https://updates.jenkins.io/download/plugins/junit/1240.vf9529b_881428/junit.hpi
