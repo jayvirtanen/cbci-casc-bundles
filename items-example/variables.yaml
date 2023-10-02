@@ -1,3 +1,0 @@
-variables:
-  - SYSTEM_MESSAGE: "Created using a CasC variable"
-  - SUPPORT_BUNDLE_PERIOD: 12
