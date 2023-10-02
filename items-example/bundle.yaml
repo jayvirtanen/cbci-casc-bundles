@@ -4,5 +4,7 @@ description: 'Items example'
 availabilityPattern: '.*'
 version: '1'
 parent: 'default-global'
+jcasc:
+  - 'jenkins.yaml'
 items:
   - 'items.yaml'
