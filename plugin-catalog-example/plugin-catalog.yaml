@@ -6,4 +6,4 @@ configurations:
   - description: "Custom Plugin LocationsP"
     includePlugins:
       beer:
-        url: https://updates.jenkins.io/download/plugins/beer/1.1/beer.hpi
+        version: 1.3
