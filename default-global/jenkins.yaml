@@ -4,7 +4,7 @@ credentials:
     - credentials:
       - usernamePassword:
         id: "Test Credential"
-        password: ${decodeBase64:cGFzc3dvcmQ=}
+        password: "${decodeBase64:cGFzc3dvcmQ=}"
         scope: GLOBAL
         username: "jvirtanen"
 jenkins:
