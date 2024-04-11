@@ -5,4 +5,3 @@ availabilityPattern: ''
 version: '1'
 jcasc:
   - 'jenkins.yaml'
-  - 'Second-jenkins.yaml'

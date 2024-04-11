@@ -1,4 +1,4 @@
 jenkins:
   remotingSecurity:
     enabled: true
-  systemMessage: ${CJOC_MESSAGE}
+  systemMessage: "Hello User"
