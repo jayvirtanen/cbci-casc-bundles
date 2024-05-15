@@ -5,3 +5,5 @@ jenkins:
 support:
   automatedBundleConfiguration:
     period: 24
+beekeeper:
+  enabled: false
