@@ -3,7 +3,10 @@ version: "1"
 name: "my-plugin-catalog"
 displayName: "My Plugin Catalog"
 configurations:
-  - description: "Custom Plugin LocationsP"
+  - description: "Extensions to CAP"
     includePlugins:
-      beer:
-        version: "42.v776b_04d96de3"
+      script-security: 
+        version: "1336.vf33a_a_9863911"
+    beekeeperExceptions:
+      script-security:
+        version: "1336.vf33a_a_9863911"
