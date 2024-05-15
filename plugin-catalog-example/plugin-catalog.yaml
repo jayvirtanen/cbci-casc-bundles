@@ -6,11 +6,6 @@ configurations:
   - description: "Script Security Exception for versions below 2.440.3.8"
     prerequisites:
       productVersion: "(2.440.3.7]"
-    includePlugins:
-      script-security:
-        version: "1336.vf33a_a_9863911"
-      caffeine-api:
-        version: "3.1.8-133.v17b_1ff2e0599"
     beekeeperExceptions:
       script-security:
         version: "1336.vf33a_a_9863911"
