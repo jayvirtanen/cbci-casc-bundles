@@ -3,9 +3,9 @@ version: "1"
 name: "my-plugin-catalog"
 displayName: "My Plugin Catalog"
 configurations:
-  - description: "Script Security Exception for versions below 2.440.3.8"
+  - description: "Script Security Exception for versions below 2.440"
     prerequisites:
-      productVersion: "(2.440.3.7]"
+      productVersion: "[2.440]"
     beekeeperExceptions:
       script-security:
         version: "1336.vf33a_a_9863911"
