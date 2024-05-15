@@ -6,8 +6,8 @@ configurations:
   - description: "Script Security Exception for versions below 2.440"
     prerequisites:
       productVersion: "[2.387.3.5, 2.440.3.7]"
-    beekeeperExceptions:
+    includePlugins:
       script-security:
-        version: "1336.vf33a_a_9863911"
+        url: "https://updates.jenkins.io/download/plugins/script-security/1336.vf33a_a_9863911/script-security.hpi"
       caffeine-api:
-        version: "3.1.8-133.v17b_1ff2e0599"
+        url: "https://jenkins-updates.cloudbees.com/download/plugins/caffeine-api/3.1.8-133.v17b_1ff2e0599/caffeine-api.hpi"
