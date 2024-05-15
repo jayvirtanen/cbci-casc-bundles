@@ -2,6 +2,7 @@ apiVersion: '1'
 id: 'default'
 description: 'Plugin Catalog Example bundle'
 availabilityPattern: ''
+allowCapExceptions: true
 version: '1'
 jcasc:
   - 'jenkins.yaml'
