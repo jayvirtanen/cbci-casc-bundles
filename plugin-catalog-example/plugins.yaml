@@ -5,3 +5,4 @@ plugins:
 - id: cloudbees-casc-items-commons
 - id: cloudbees-casc-items-controller
 - id: cloudbees-folder
+- id: script-security
