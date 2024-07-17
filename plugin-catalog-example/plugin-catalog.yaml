@@ -3,9 +3,9 @@ version: "1"
 name: "my-plugin-catalog"
 displayName: "My Plugin Catalog"
 configurations:
-  - description: "Script Security Exception for versions below 2.440"
+  - beekeeperExceptions: "Script Security Exception for versions below 2.440"
     includePlugins:
       script-security:
-        url: "https://updates.jenkins.io/download/plugins/script-security/1336.vf33a_a_9863911/script-security.hpi"
+        version: "1336.vf33a_a_9863911"
       caffeine-api:
-        url: "https://jenkins-updates.cloudbees.com/download/plugins/caffeine-api/3.1.8-133.v17b_1ff2e0599/caffeine-api.hpi"
+        version: "3.1.8-133.v17b_1ff2e0599"
