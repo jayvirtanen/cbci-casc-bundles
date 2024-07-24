@@ -5,5 +5,5 @@ displayName: "My Plugin Catalog"
 configurations:
   - description: "Script Security Exception for versions below 2.440"
     beekeeperExceptions:
-      script-security:
-        version: "1336.vf33a_a_9863911"
+      matrix-project:
+        version: "832.va_66e270d2946"
