@@ -2,7 +2,7 @@ apiVersion: v1
 kind: ConfigMap
 metadata:
   name: oc-casc-bundle
-  namespace: default
+  namespace: cloudbees-ci
 data:
   bundle.yaml: |
     apiVersion: '1'
@@ -13,6 +13,32 @@ data:
       - jenkins.yaml
     plugins:
       - plugins.yaml
+    items:
+      - items.yaml
+  items.yaml: |
+    removeStrategy:
+      rbac: SYNC
+      items: NONE
+    items:
+      - kind: clientController
+        name: cc8
+        description: ''
+        displayName: cc8
+        properties:
+        - configurationAsCode: {}
+        - sharedHeaderLabelOptIn:
+            optIn: true
+        - healthReporting:
+            enabled: true
+        - owner:
+            delay: 5
+            owners: ''
+        - envelopeExtension:
+            allowExceptions: false
+        - sharedConfigurationOptOut:
+            optOut: false
+        - webSocket:
+            enabled: false
   jenkins.yaml: |
     jenkins:
       systemMessage: "OC configured with CasC"

@@ -1,9 +1,0 @@
-type: "plugin-catalog"
-version: "1" 
-name: "my-plugin-catalog"
-displayName: "My Plugin Catalog"
-configurations:
-  - description: "Performing URL overwrite for testing"
-    includePlugins:
-      junit:
-        url: https://updates.jenkins.io/download/plugins/junit/1.63/junit.hpi
