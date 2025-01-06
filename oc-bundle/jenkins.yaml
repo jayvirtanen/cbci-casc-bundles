@@ -1,0 +1,5 @@
+jenkins:
+  systemMessage: "OC configured with CasC"
+unclassified:
+  cascAutoControllerProvisioning:
+    provisionControllerOnCreation: true
