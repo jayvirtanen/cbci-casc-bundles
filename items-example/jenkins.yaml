@@ -1,6 +1,3 @@
-support:
-  automatedBundleConfiguration:
-    period: 24
 unclassified:
   location:
     url: {CONTROLLER_URL}
