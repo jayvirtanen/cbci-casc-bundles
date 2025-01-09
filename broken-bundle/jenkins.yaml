@@ -1,4 +1,5 @@
 jenkins:
   systemMessage: 
 security:
-  badge:
+  badgePlugin:
+    disableFormatHTML: false
