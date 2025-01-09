@@ -1,0 +1,7 @@
+apiVersion: '1'
+id: 'broken'
+description: 'Broken CasC bundle'
+availabilityPattern: ''
+version: '1'
+jcasc:
+  - 'jenkins.yaml'
