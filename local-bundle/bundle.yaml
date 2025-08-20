@@ -3,8 +3,7 @@ id: 'examples'
 description: 'Items example'
 availabilityPattern: '.*'
 version: '1'
-parent: 'default-global'
 jcasc:
-  - 'jenkins.yaml'
+  - '../default-global/jenkins.yaml'
 variables:
   - 'variables.yaml'
