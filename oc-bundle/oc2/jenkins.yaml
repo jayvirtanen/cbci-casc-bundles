@@ -1,4 +1,0 @@
-jenkins:
-  remotingSecurity:
-    enabled: true
-  systemMessage: "Hello User"
