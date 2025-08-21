@@ -3,6 +3,6 @@ id: 'example'
 description: 'OC Bundle Example'
 version: '1'
 jcasc:
-  - ../default-global/jenkins.yaml
+  - "../default-global/jenkins.yaml"
 plugins:
   - plugins.yaml
