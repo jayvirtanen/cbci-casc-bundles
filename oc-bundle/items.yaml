@@ -1,0 +1,7 @@
+removeStrategy:
+  rbac: SYNC
+  items: NONE
+items:
+- kind: managedController
+  name: mm-1
+  displayName: mm-1
