@@ -42,3 +42,43 @@ items:
       allowExceptions: false
   - sharedConfigurationOptOut:
       optOut: false
+- kind: managedController
+  name: mm-1
+  configuration:
+    kubernetes:
+      allowExternalAgents: false
+      terminationGracePeriodSeconds: 30
+      image: CloudBees CI - Managed Controller - latest
+      memory: 3072
+      startupPeriodSeconds: 10
+      useNewHealthCheck: false
+      fsGroup: '1000'
+      cpus: 1.0
+      readinessTimeoutSeconds: 5
+      startupFailureThreshold: 100
+      livenessInitialDelaySeconds: 0
+      readinessInitialDelaySeconds: 0
+      clusterEndpointId: default
+      disk: 50
+      readinessFailureThreshold: 3
+      livenessTimeoutSeconds: 10
+      livenessPeriodSeconds: 10
+      startupTimeoutSeconds: 5
+      startupInitialDelaySeconds: 30
+      javaOptions: -XshowSettings:vm -XX:+AlwaysPreTouch -XX:+DisableExplicitGC -XX:+ParallelRefProcEnabled
+        -XX:+UseStringDeduplication -XX:+AlwaysActAsServerClassMachine -Dhudson.slaves.NodeProvisioner.initialDelay=0
+  description: ''
+  displayName: mm-1
+  properties:
+  - customWebhookData: {}
+  - sharedHeaderLabelOptIn:
+      optIn: true
+  - healthReporting:
+      enabled: true
+  - owner:
+      delay: 5
+      owners: ''
+  - envelopeExtension:
+      allowExceptions: false
+  - sharedConfigurationOptOut:
+      optOut: false
