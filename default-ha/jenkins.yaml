@@ -24,6 +24,7 @@ tool:
     
 appearance:
   themeManager:
+    disableUserThemes: true
     theme: "darkSystem"
 unclassified:
   bundleUpdateTiming:
