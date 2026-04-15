@@ -33,14 +33,14 @@ unclassified:
         defaultVersion: "main"
         implicit: false
         includeInChangesets: false
-        name: "shared"
+        name: "shared-libs"
         retriever:
           modernSCM:
             clone: true
             scm:
               gitSource:
                 credentialsId: "gh-api"
-                remote: "git@github.com/jayvirtanen/jenkins-shared-libs.git"
+                remote: "https://github.com/jayvirtanen/jenkins-shared-libs"
   globalUntrustedLibraries:
     libraries:
       - allowVersionOverride: true
@@ -54,7 +54,7 @@ unclassified:
             scm:
               gitSource:
                 credentialsId: "gh-api"
-                remote: "git@github.com/jayvirtanen/jenkins-shared-libs.git"
+                remote: "https://github.com/jayvirtanen/jenkins-shared-libs"
   gitHubPluginConfig:
     configs:
       - credentialsId: "gh-api"
