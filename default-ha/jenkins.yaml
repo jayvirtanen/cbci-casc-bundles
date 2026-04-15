@@ -21,7 +21,10 @@ security:
 tool:
   cloudbeesPluginUsageAnalyzer:
     enabled: false
-
+    
+appearance:
+  themeManager:
+    theme: "darkSystem"
 unclassified:
   bundleUpdateTiming:
     automaticReload: true
