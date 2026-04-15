@@ -33,14 +33,14 @@ unclassified:
         defaultVersion: "main"
         implicit: false
         includeInChangesets: false
-        name: "pipeline-libraries"
+        name: "shared"
         retriever:
           modernSCM:
             clone: true
             scm:
               gitSource:
-                credentialsId: "github-key"
-                remote: "git@github.com:ryecarrigan/pipeline-libraries.git"
+                credentialsId: "gh-api"
+                remote: "git@github.com/jayvirtanen/jenkins-shared-libs.git"
   globalUntrustedLibraries:
     libraries:
       - allowVersionOverride: true
@@ -53,11 +53,11 @@ unclassified:
             clone: true
             scm:
               gitSource:
-                credentialsId: "github-key"
-                remote: "git@github.com:ryecarrigan/pipeline-libraries.git"
+                credentialsId: "gh-api"
+                remote: "git@github.com/jayvirtanen/jenkins-shared-libs.git"
   gitHubPluginConfig:
     configs:
-      - credentialsId: "github-token"
+      - credentialsId: "gh-api"
         name: "GitHub"
     hookUrl: "$JENKINS_BASE_URL/github-webhook/"
   provisioningLimitConfiguration:
