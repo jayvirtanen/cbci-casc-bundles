@@ -9,10 +9,26 @@ jenkins:
 kube:
   podTemplatesConfiguration:
     templates:
-      - label: "agent"
-        nodeSelector: "jenkins=agent"
-        showRawYaml: false
-        yamlMergeStrategy: "override"
+    - label: "agent"
+      nodeSelector: "jenkins=agent"
+      showRawYaml: false
+      yamlMergeStrategy: "override"
+    - containers:
+      - args: "9999999"
+        command: "sleep"
+        image: "maven:3.9.6-amazoncorretto-17-debian-bookworm"
+        livenessProbe:
+          failureThreshold: 0
+          initialDelaySeconds: 0
+          periodSeconds: 0
+          successThreshold: 0
+          timeoutSeconds: 0
+        name: "maven"
+        workingDir: "/home/jenkins/agent"
+      id: "cf79e2da-ebf4-4f1e-9689-861ce8341f7c"
+      label: "JAVA-17-396"
+      name: "JAVA-17-396"
+      yamlMergeStrategy: "override"
 
 security:
   gitHostKeyVerificationConfiguration:
