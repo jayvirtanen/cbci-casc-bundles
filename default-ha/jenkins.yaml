@@ -25,7 +25,6 @@ kube:
           timeoutSeconds: 0
         name: "maven"
         workingDir: "/home/jenkins/agent"
-      id: "cf79e2da-ebf4-4f1e-9689-861ce8341f7c"
       label: "JAVA-17-396"
       name: "JAVA-17-396"
       yamlMergeStrategy: "override"
