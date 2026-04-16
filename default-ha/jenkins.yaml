@@ -4,7 +4,7 @@ jenkins:
   systemMessage: |
     Configured automatically by CloudBees Configuration as Code for Controllers (${bundleName})
     
-    Java: ${java.version}
+    Hello
 
 kube:
   podTemplatesConfiguration:
